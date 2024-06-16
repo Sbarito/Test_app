@@ -1,0 +1,42 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:AvaloniaApplication16.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="clr-namespace:AvaloniaApplication16.Views"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaApplication16.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Test_App">
+	<Grid>
+		<views:MainView />
+		<TabControl Margin="5">
+			<TabItem Header="Первая вкладка">
+				<Grid>
+					<StackPanel Orientation="Vertical">
+						<TextBlock>Введите в поле ввода любой текст, и он выведется на экран</TextBlock>
+						<TextBox x:Name="inputTextBox"/>
+						<StackPanel HorizontalAlignment="Left" VerticalAlignment="Top">
+							<Button
+							Click="ButtonClicked">
+								Нажмите, чтобы вывелось сообщение
+							</Button>
+						</StackPanel>
+						<TextBlock x:Name="outputTextBlock" />
+					</StackPanel>
+
+				</Grid>
+			</TabItem>
+			<TabItem Header="Вторая вкладка">
+				<StackPanel HorizontalAlignment="Left" VerticalAlignment="Top">
+					<Button Click="ButtonClicked2" Classes="tablet">
+						Нажмите, чтобы поменять цвет кнопки
+					</Button>
+				</StackPanel>
+			</TabItem>
+
+		</TabControl>
+	</Grid>
+</Window>
+
+
