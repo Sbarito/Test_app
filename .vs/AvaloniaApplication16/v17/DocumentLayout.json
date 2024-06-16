@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0421\u043E\u0444\u044C\u044F\\Desktop\\Test_app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{014BB762-AD28-4766-95E5-C97E37849CC6}|AvaloniaApplication16\\AvaloniaApplication16.csproj|c:\\users\\\u0441\u043E\u0444\u044C\u044F\\desktop\\test_app\\avaloniaapplication16\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{014BB762-AD28-4766-95E5-C97E37849CC6}|AvaloniaApplication16\\AvaloniaApplication16.csproj|solutionrelative:avaloniaapplication16\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\Users\\\u0421\u043E\u0444\u044C\u044F\\Desktop\\Test_app\\AvaloniaApplication16\\App.axaml",
+              "RelativeDocumentMoniker": "AvaloniaApplication16\\App.axaml",
+              "ToolTip": "C:\\Users\\\u0421\u043E\u0444\u044C\u044F\\Desktop\\Test_app\\AvaloniaApplication16\\App.axaml",
+              "RelativeToolTip": "AvaloniaApplication16\\App.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-16T14:33:26.53Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

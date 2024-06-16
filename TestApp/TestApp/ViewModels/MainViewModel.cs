@@ -1,4 +1,4 @@
-﻿namespace AvaloniaApplication16.ViewModels;
+﻿namespace TestApp.ViewModels;
 
 public class MainViewModel : ViewModelBase
 {

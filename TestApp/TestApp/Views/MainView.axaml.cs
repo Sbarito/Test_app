@@ -1,6 +1,6 @@
 ﻿using Avalonia.Controls;
 
-namespace AvaloniaApplication16.Views;
+namespace TestApp.Views;
 
 public partial class MainView : UserControl
 {

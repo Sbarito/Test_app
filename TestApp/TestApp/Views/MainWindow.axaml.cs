@@ -1,9 +1,8 @@
 ﻿using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Media;
-using System.Diagnostics;
 
-namespace AvaloniaApplication16.Views;
+namespace TestApp.Views;
 
 public partial class MainWindow : Window
 {
@@ -24,11 +23,10 @@ public partial class MainWindow : Window
         if (button.Background is SolidColorBrush brush && brush.Color == Colors.Red)
         {
             button.Background = new SolidColorBrush(Colors.Yellow);
-        } else
+        }
+        else
         {
             button.Background = new SolidColorBrush(Colors.Red);
         }
     }
-
-
 }
